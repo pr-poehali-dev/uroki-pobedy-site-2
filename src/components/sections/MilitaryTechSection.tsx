@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Tank } from "lucide-react";
+import { Shield } from "lucide-react"; // Заменил Tank на Shield
 
 interface TechItemProps {
   title: string;
@@ -45,7 +45,7 @@ const MilitaryTechSection = () => {
     <section id="military-tech" className="py-16 bg-white">
       <div className="container mx-auto">
         <div className="flex items-center mb-8">
-          <Tank className="text-[#9b87f5] mr-3 h-8 w-8" />
+          <Shield className="text-[#9b87f5] mr-3 h-8 w-8" /> {/* Заменил Tank на Shield */}
           <h2 className="text-3xl font-bold text-[#1A1F2C]">Рассказы о военной технике</h2>
         </div>
         
